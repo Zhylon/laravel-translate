@@ -40,6 +40,16 @@ class TranslateManager
                 'target' => $target,
             ]);
 
+        throw_if(
+            401 === $response->status() || 403 === $response->status(),
+            new InvalidApiKeyException('Invalid API key provided.')
+        );
+
+        throw_if(
+            404 === $response->status(),
+            new InvalidModelException('Invalid model or API endpoint provided.')
+        );
+
         throw_unless(
             $response->successful(),
             new InvalidApiCallException('API call failed.')
