@@ -1,0 +1,48 @@
+{
+    "name": "zhylon/laravel-translate",
+    "description": "This package can be used to translate your Laravel application.",
+    "keywords": [
+        "zhylon",
+        "laravel",
+        "translation",
+        "TobyMaxham"
+    ],
+    "homepage": "https://github.com/Zhylon/laravel-translate",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": ":TobyMaxham",
+            "email": "git@maxham.de",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^10.0|^11.0|^12.0",
+        "illuminate/database": "^10.0|^11.0|^12.0",
+        "spatie/laravel-translatable": "^6.11"
+    },
+    "require-dev": {
+        "laravel/pint": "^1.21"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zhylon\\LaravelTranslator\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Zhylon\\LaravelTranslator\\LaravelTranslatorServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "cs-fix": "./vendor/bin/pint src/"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
