@@ -126,5 +126,5 @@ If you've found a bug regarding security please mail [security@zhylon.net](mailt
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[laravel-translate-image]: https://socialify.git.ci/Zhylon/laravel-translate/image?description=1&font=Raleway&issues=1&language=1&pattern=Charlie%20Brown&pulls=1&stargazers=1&theme=Light
-[laravel-translate-edit-link]: https://socialify.git.ci/wei/socialify?description=1&font=Raleway&issues=1&language=1&pattern=Charlie%20Brown&pulls=1&stargazers=1&theme=Light
+[laravel-translate-image]: https://socialify.git.ci/Zhylon/laravel-translate/image?description=1&font=Raleway&issues=1&language=1&owner=1&pattern=Charlie%20Brown&pulls=1&stargazers=1&theme=Light
+[laravel-translate-edit-link]: https://socialify.git.ci/wei/socialify?description=1&font=Raleway&issues=1&language=1&owner=1&pattern=Charlie%20Brown&pulls=1&stargazers=1&theme=Light
