@@ -1,4 +1,4 @@
-# Zhylon Translatable
+[![Zhylon Translatable][laravel-translate-image]][laravel-translate-edit-link]
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/zhylon/laravel-translate.svg?style=flat-square)](https://packagist.org/packages/zhylon/laravel-translate)
 [![MIT Licensed](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
@@ -125,3 +125,6 @@ If you've found a bug regarding security please mail [security@zhylon.net](mailt
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+
+[laravel-translate-image]: https://socialify.git.ci/Zhylon/laravel-translate/image?description=1&font=Raleway&issues=1&language=1&pattern=Charlie%20Brown&pulls=1&stargazers=1&theme=Light
+[laravel-translate-edit-link]: https://socialify.git.ci/wei/socialify?description=1&font=Raleway&issues=1&language=1&pattern=Charlie%20Brown&pulls=1&stargazers=1&theme=Light
